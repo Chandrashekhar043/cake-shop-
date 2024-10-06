@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Cakes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Cakes</h1>
+        <nav>
+            <ul>
+                <li><a href="#cakes">Cakes</a></li>
+                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="cakes">
+        <section class="cake" data-name="Chocolate Cake" data-price="20">
+            <img src="images/cake1.jpg" alt="Chocolate Cake">
+            <h2>Chocolate Cake</h2>
+            <p>Rich and creamy chocolate cake.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </section>
+
+        <section class="cake" data-name="Vanilla Cake" data-price="15">
+            <img src="images/cake2.jpg" alt="Vanilla Cake">
+            <h2>Vanilla Cake</h2>
+            <p>Classic vanilla cake with a smooth buttercream.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </section>
+
+        <section class="cake" data-name="Red Velvet Cake" data-price="25">
+            <img src="images/cake3.jpg" alt="Red Velvet Cake">
+            <h2>Red Velvet Cake</h2>
+            <p>Velvety and delicious, perfect for any occasion.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Delicious Cakes. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
